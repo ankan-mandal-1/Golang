@@ -16,11 +16,11 @@ func main() {
 	}
 
 	// FOR Loop
-	for i := 0; i < 3; i++ {
-		fmt.Println(i)
+	for j := 0; j < 3; j++ {
+		fmt.Println(j)
 	}
 
-	for i := range 5 {
-		fmt.Println(i)
+	for k := range 5 {
+		fmt.Println(k)
 	}
 }
