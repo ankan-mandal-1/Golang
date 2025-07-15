@@ -17,4 +17,7 @@ func main() {
 
 	// 2D Arrays
 	number := [2][2]int{{3, 4}, {5, 6}}
+	fmt.Println(number)
+
+	// Arrays is used when it has fixed sized
 }
