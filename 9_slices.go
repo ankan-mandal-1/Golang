@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"slices"
+)
 
 func main() {
 
@@ -30,4 +33,13 @@ func main() {
 	// Slice Operator
 	var arr1 = []int{1, 2, 3}
 	fmt.Println(arr1[0:2])
+
+	//Slices Package
+	var lio1 = []int{1, 2, 3}
+	var lio2 = []int{1, 2, 3}
+
+	fmt.Println(slices.Equal(lio1, lio2))
+
+	var odd = [][]int{{1, 2, 3}, {4, 5, 6}}
+	fmt.Println(odd)
 }
